@@ -1,7 +1,7 @@
 def my_funct_1(x, y):
     if x > 0 > y:
         exp = x ** y
-        print(f'{exp:.2f}')
+        print(f'{exp:.6f}')
     else:
         print("Err!")
 
@@ -20,7 +20,7 @@ def my_funct_2(x, y):
             if n < -1 * y:
                 continue
             else:
-                print(f'{exp:.2f}')
+                print(f'{exp:.6f}')
     else:
         print("Err!")
 
