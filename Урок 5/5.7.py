@@ -16,7 +16,7 @@ with open("text_7.txt", "r", encoding="utf-8") as text_7:
             n = n + 1
             continue
         else:
-            dict_average_profit = {'average_profit': sum([int(el) for el in money]) // n}
+            dict_average_profit = {'average_profit': sum([int(el) for el in money]) // (n - 1)}
             my_list = [dict(zip(name, money)), dict_average_profit]
             break
 
