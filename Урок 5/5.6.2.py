@@ -1,4 +1,4 @@
-"""Если цифры отделены"""
+"""Если цифры не отделены"""
 with open("text_6.txt", "r", encoding="utf-8") as text_6:
     name = []
     amount = []
